@@ -10,3 +10,9 @@ find-process(){
 function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
+
+open() {
+  PROJECT=$1
+  code ~/workspace/"$PROJECT"
+  exit;
+}
