@@ -1,6 +1,3 @@
-alias l = 'ls -la'
-alias ls = 'ls -la'
-
 # Rails
 alias rs="rails s"
 alias rsp="rails s -p 3001"
