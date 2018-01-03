@@ -16,3 +16,8 @@ open() {
   code ~/workspace/"$PROJECT"
   exit;
 }
+
+vpn(){
+  FILE=$1
+  sudo openvpn --config "$FILE"
+}
