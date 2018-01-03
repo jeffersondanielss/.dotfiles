@@ -1,0 +1,22 @@
+{
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "workbench.iconTheme": "vscode-icons",
+  "javascript.validate.enable": false,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "window.zoomLevel": 0,
+  "editor.fontSize": 14,
+  "extensions.ignoreRecommendations": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressUpdateNotice": true,
+      "suppressWelcomeNotice": false
+  }
+}
