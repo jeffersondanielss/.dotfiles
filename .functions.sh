@@ -21,3 +21,14 @@ vpn(){
   FILE=$1
   sudo openvpn --config "$FILE"
 }
+
+find-process(){
+ PROJECT=$1
+
+ ps -aux | grep $PROJECT
+}
+
+getversion() {
+	PROJECT=$1
+  cat ~/workspace/"$PROJECT"/version | tr -d "\n\r" | xclip -sel clip
+}
