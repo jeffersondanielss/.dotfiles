@@ -1,4 +1,7 @@
 {
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
   "workbench.iconTheme": "vscode-icons",
@@ -6,7 +9,6 @@
   "prettier.singleQuote": true,
   "prettier.semi": false,
   "window.zoomLevel": 0,
-  "editor.fontSize": 14,
   "extensions.ignoreRecommendations": false,
   "workbench.colorTheme": "One Dark Pro",
   "gitlens.advanced.messages": {

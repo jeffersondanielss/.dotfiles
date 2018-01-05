@@ -15,6 +15,12 @@ if [ ! -d "$HOME/.dotfiles" ]
     echo "  - Git"
     echo ""
 
+    echo "--------------------------------------"
+    echo "|            INSTALL GIT             |"
+    echo "--------------------------------------"
+    sudo apt-get install git
+    echo ""
+
     git clone --depth=10 https://github.com/jeffersondanielss/.dotfiles "$HOME/.dotfiles"
     cd "$HOME/.dotfiles"
     sudo ./initialize.sh

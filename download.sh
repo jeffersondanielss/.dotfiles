@@ -8,11 +8,6 @@ echo "--------------------------------------"
 sudo apt-get install zsh
 
 echo "--------------------------------------"
-echo "|                GIT                 |"
-echo "--------------------------------------"
-sudo apt-get install git
-
-echo "--------------------------------------"
 echo "|             GIT EXTRAS             |"
 echo "--------------------------------------"
 sudo apt-get install git-extras
