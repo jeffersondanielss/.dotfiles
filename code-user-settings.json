@@ -1,24 +1,28 @@
 {
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.tabSize": 2,
-  "editor.renderWhitespace": "all",
-  "workbench.iconTheme": "vscode-icons",
-  "javascript.validate.enable": false,
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "window.zoomLevel": 0,
-  "extensions.ignoreRecommendations": false,
-  "workbench.colorTheme": "One Dark Pro",
-  "gitlens.advanced.messages": {
-      "suppressCommitHasNoPreviousCommitWarning": false,
-      "suppressCommitNotFoundWarning": false,
-      "suppressFileNotUnderSourceControlWarning": false,
-      "suppressGitVersionWarning": false,
-      "suppressLineUncommittedWarning": false,
-      "suppressNoRepositoryWarning": false,
-      "suppressUpdateNotice": true,
-      "suppressWelcomeNotice": false
-  }
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "vscode-icons",
+    "javascript.validate.enable": false,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
+    "files.associations": {
+        "*.js.flow": "javascript",
+        "*.flow": "javascript"
+    }
 }
